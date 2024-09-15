@@ -25,7 +25,7 @@ def log_and_print(message):
 
 def login(username, password, follow_count, likes_min, likes_max, location_url):
     # Указываем путь к chromedriver
-    service = Service(r"C:\Users\Вероника\Desktop\secret\instagram_bot-master\chromedriver\chromedriver.exe")
+    service = Service("chromedriver")
 
     # Инициализация браузера Chrome
     browser = webdriver.Chrome(service=service)
