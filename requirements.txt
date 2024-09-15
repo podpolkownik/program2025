@@ -1,3 +1,4 @@
 requests==2.28.1
 flask==2.2.2
-selenium==4.10.0  # Убедитесь, что версия актуальна
+selenium==4.10.0
+telepot==12.7
